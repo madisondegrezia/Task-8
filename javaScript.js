@@ -24,7 +24,7 @@ console.log(swapCase("Hello World"));
 // funtion to convert array of numbers from farenheit to celcius
 function toCelsius(array) {
     return array.map(function (temperature) {
-        return (temperature - 32) * 5 / 9
+        return (temperature - 32) * 5 / 9;
     });
 }
 console.log(toCelsius([23, 32, 41, 50, 59]));
